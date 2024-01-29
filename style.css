@@ -1,0 +1,272 @@
+body{
+    background-color: #BC8A5F;
+}
+#videobg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index:-1;
+}
+nav{
+    display: flex;
+    background-color: #E7BC91;
+    justify-content:space-around;
+    padding-top: 1vh;
+}
+.home a{
+    font-family: "Archivo Black", sans-serif;
+    font-size: x-large;
+    color:#F37C1E
+}
+.home img{
+    width: 40px;
+}
+.do a{
+    font-family: "Archivo Black", sans-serif;
+    font-size: x-large;
+    color:#F37C1E
+}
+.do img{
+    width: 40px;
+}
+.aboutus a{
+    font-family: "Archivo Black", sans-serif;
+    font-size: x-large;
+    color:#F37C1E
+}
+.aboutus img{
+    width: 40px;
+}
+.home{
+    display: inline;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.7;
+    transition: .4s;
+}
+.home:hover{
+    opacity: 1;
+    transition: .4s;
+    padding: 5px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.do{
+    display: inline;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.7;
+    transition: .4s;
+}
+.do:hover{
+    opacity: 1;
+    transition: .4s;
+    padding: 5px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.aboutus{
+    display: inline;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.7;
+    transition: .4s;
+}
+.aboutus:hover{
+    opacity: 1;
+    transition: .4s;
+    padding: 5px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.logo img{
+    float: left;
+    position: relative;
+}
+.banner{
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.bannerhead{
+    font-size: 60px;
+    font-weight: 800;
+    color: #F37C1E;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.our-background{
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 40px;
+    font-size: 25px;
+    height: fit-content;
+
+}
+h1{
+    color: #F37C1E;
+    text-align: center;
+}
+p{
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 40px;
+    font-size: 25px;
+    height: fit-content;
+}
+.organization-pic img{
+margin-left: 300px;
+width: 600px;
+}
+.content3{
+    display: flex;
+}
+.mission{ 
+    padding: 20px;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.mission h2{
+    color:#F37C1E;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.mission h3{
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+.vision{
+    padding: 20px;    
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.vision h2{
+    color:#F37C1E;
+    margin-left: px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.vision h3{
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+.animal-pics img{
+    width:200px
+}
+.volunteer h2{
+    color:#F37C1E;
+}
+.volunteer-here{
+    background-color: #F37C1E;
+    width: 160px;
+    border-radius: 15px;
+}
+.icon{
+    background: url(../images/sprite3.png) no-repeat;
+    width: 66px;
+	height: 66px;
+    display: inline-block;
+}
+#soundcloud{
+    background-position: -587px -72px;
+}
+#fb{
+    background-position: -439px -146px;
+}
+#gmail{
+    background-position: -365px -221px;
+}
+#yt{
+    background-position: -439px -221px;
+}
+.links a{
+   margin-left: 1vw;
+}
+.activities img{
+    width: 200px;
+    margin-left: 100px;
+}
+.initiatives img{
+    width: 600px;
+    margin-left: 300px;
+}
+.initiatives h2{
+    color: #F37C1E;
+    text-align: center;
+}
+.initiatives h3{
+    color: white;
+    text-align: center;
+}
+.involvements h2{
+    color: #F37C1E;
+    text-align: center;
+}
+.involvements h3{
+    color: white;
+    text-align: center;
+}
+.activities h2{
+    color: #F37C1E;
+    text-align: center;
+}
+@media screen and (max-width:600px)
+{
+    nav{
+        position: relative;
+        background-color: #facb10;
+    }
+
+    .links{
+        display: none;
+        z-index: 1; 
+        position: absolute;
+        background-color: #5148a8;
+        min-width: 100vw;
+        box-shadow: #5148a8;
+
+    }
+
+.pagetitle{
+    background-color: #c4bdff;
+    padding: 1vw;
+    color: white;
+}
+ .links a{
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: block;
+ }
+ .links a:hover{
+    background-color: #b7b1ec;
+}
+nav:hover .links{display: block;}
+nav:hover .pagetitle{background-color: #5148a8;}
+}
